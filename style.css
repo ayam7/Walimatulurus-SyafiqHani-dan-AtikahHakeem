@@ -350,8 +350,6 @@ body {
   position: fixed;
   top: 30px; /* Adjust this value to position the button vertically */
   right: 35px; /* Adjust this value to position the button horizontally */
-  opacity: 0.7;
-  transition: 0.3s ease-in-out;
 }
 
 .music-container p {
@@ -373,10 +371,6 @@ body {
 
 #audio-player {
   display: none;
-}
-
-.music-container:hover {
-  opacity: 1;
 }
 
 /* Responsive site */
