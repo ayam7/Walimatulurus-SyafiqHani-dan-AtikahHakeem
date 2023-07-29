@@ -31,6 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (audioPlayer.paused) {
       audioPlayer.play();
       playButton.textContent = "◼";
+      playButton.style.color = "#fff";
     } else {
       audioPlayer.pause();
       playButton.textContent = "▶";
